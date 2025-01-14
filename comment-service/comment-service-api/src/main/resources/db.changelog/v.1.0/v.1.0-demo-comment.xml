@@ -1,0 +1,1652 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.27.xsd">
+
+
+    <changeSet id="insert-rows-comment" author="Katerina">
+        <insert tableName="comment">
+            <column name="id" value="6214a7f4-d1fb-4f58-bb4a-c98223b97657"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Замечательно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1963ff49-48ee-4342-8d18-deba7d260b61"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="dbba0135-4d16-4bf0-a84d-cead1dfbc5cc"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А яблоки для посетителей)))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="dfd4a231-fa55-4951-86f3-051101d6fdfc"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Fredy))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b5649b25-32de-4322-8fec-bab7ee917f1a"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Полезная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4ae12876-c60c-4bd3-97c1-4ae3b6a5a399"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ожидаемо"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="8c19d28d-fe9c-4f39-9dcc-f51f8904e76a"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="88afffea-6d55-47c9-9f63-d3f1c3a57cb2"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не информативно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="608cdb3b-8f86-4384-a79b-8f6a4941e812"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Нет мыслей по поводу новости"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="80ce8e56-40e0-44ce-8bf6-8db23106efda"/>
+            <column name="news_id" value="45f1ab38-8678-4271-a0b2-82f5c4de549c"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Мелко, где глобальные новости"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="1abd14fa-ccef-4c7a-9de5-85dd4a8070bf"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Замечательно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3827fa01-4c90-47e9-84b5-9681f293c5f4"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7f65545d-bf15-4174-b35e-70c0124cca07"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="ИИ конечно помогает, но ждать ли восстания машин))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1ec6f424-5add-4353-82e8-e5e0a53f4b9c"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Fredy))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f23280ec-8e81-4cf4-a280-01fe3f6fa556"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Бесполезная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f93d2c1c-b0c5-4ee6-bbdd-767bf11ff294"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так много ..."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2ecd2414-7fa2-4bb5-a7a8-693638832859"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="bc287f17-a314-4905-8918-3c92f9367b53"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Мало информации"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="d1975d9c-c769-4c98-a9ec-cbdc8135a01d"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так это ж не у нас"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5706cac8-8ddd-4cc8-9053-528706202cf2"/>
+            <column name="news_id" value="28810b3a-5671-46fc-8ca6-7f29b490d4ef"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что-то вирусов многовато ..."/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="92780087-5cda-4347-83a8-ab30bbf3a6c4"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ха-ха, ай да Маск"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4fd2c454-f687-41d2-b608-5b2205e61aff"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что-то пошло не так ...."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1406e8fc-e669-4125-8e45-ced84fde06f4"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Лучше б не покупал"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5babd80d-8e4f-48a2-b166-23c8627dd1b3"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="После изменений - ожидаемо"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="94923fec-b587-4340-a41c-ada1e26f7efc"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Закроется????"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="0d7588b6-2082-4398-9556-9d562b1cca61"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ай-да Илон"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="bbdda6fb-f324-42c8-bb56-e4d445a94113"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не пользовался, а теперь и начинать не буду"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="8282d9bd-f04e-4a24-b521-4daf1147b605"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Вот так инвестиции)))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a026862b-f3d5-41ba-82cf-7f7ee54a5b5a"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="@nick поддерживаю"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="265aaaa9-1d49-401b-b40a-c2b77d27c813"/>
+            <column name="news_id" value="3cc3e5f4-3fa3-4bc4-9278-d0b57c2b81d6"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Накреативили))))"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="2abc3b40-c6fd-48a9-9400-7edfaa47931e"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что за новость???"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="97d6259c-842f-4726-b163-94ff42a1e469"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Полезно, но вопрос - зачем???"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="0c28e1d0-9c01-4703-8fed-cc210df2fb65"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не встречал"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="19376bed-3875-420e-a1c3-88a2a0544969"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Видел, смешные"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2d466711-d600-47d5-984b-19411d78b823"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неадекватные"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="688fa8cd-3df4-47cd-a6bb-503e77e9f938"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Пусть развлекаются"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="0612d77b-f561-4007-a108-2ecdd00cbaa3"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Странно смотрится со стороны"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="04596a7c-3040-4bb0-8b05-ca0336bb2448"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не нормальные"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="260e46ae-31f0-402a-9887-fdb2cd26f81a"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А мне нравиться"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7de905bd-4195-4d80-ba84-b5682352fddd"/>
+            <column name="news_id" value="366421fb-dea9-476a-b655-0a1aad1e9af1"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Без комментариев ..."/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="69a7acad-4c15-4c88-a689-2c4eb1ddd718"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Замечательно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="21647e25-303a-416c-880e-1c132e47cbbe"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5fb87c08-ef28-45c3-9056-382882bb7dc5"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неожиданно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1fcd25d6-de08-4c8d-b70a-b5c39d74c031"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Странно, ну да ладно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="02844396-a8e4-451e-88bc-d741ece32d35"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так и не поняла за что"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7ba8ebb3-085b-47de-a24a-3cc3a41ff1a4"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Иногда странный выбор"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7d013241-0372-46d5-b984-fe3a0d236c29"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Это чтобы люди обратили внимание на проблему"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="6a8b682a-b5ad-4868-93d6-b3c19ef71db4"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так а сколько лет они этим занимаются?"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a26f4eec-5409-48f5-8247-c7c127b3eb27"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Заслужили"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c830d32c-0940-4daa-84f8-72603ac9b3ec"/>
+            <column name="news_id" value="1540410b-2946-456f-8339-2565243e002e"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну, дали и дали"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="ab9fd9b4-e5de-40e1-a045-18844810b993"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ого"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="27b71f79-e51d-4f23-aaef-9de8cd6f69d4"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c881a75a-00a6-4bbc-9b2e-3242531efd26"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Вот это инвестиции"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="6aac5ac8-ca0c-40dc-8fc8-67e4890c7874"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Масштабно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f1f4df27-cc0e-44c4-8cf2-298b647bca50"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Большому кораблю - большое плавание"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="04349d05-987f-432d-a0e2-1596a366fa4f"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Откуда????"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="557a2e73-3de6-4c55-abc9-e42b9c269e45"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Главное не прогореть"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="ef142c60-03ff-4c01-878d-51fc0f0a4c1a"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Мне не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3019ff57-b904-4810-a4a9-82db414503d7"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Чуть-чуть про большие деньги"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="8d4c7d5d-d161-4b0f-8994-f6015df44503"/>
+            <column name="news_id" value="7f210590-b375-4e4d-a754-f2b415c981a4"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Как-то так"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="fff9e3bc-d91b-4a9d-a14a-8944d4c77be6"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ужас"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="149d473e-b500-4c85-ab81-7f1f1622fda6"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ого"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="bd3015de-b315-459c-848e-15d503759386"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Вот это затопило"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="28450f1a-02fb-437e-b8c7-3696d90bb8a2"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Сахара??"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1d79fdb4-ae1e-4ca7-b0c4-6b73d34dc59c"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что с климатом?"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4f190be4-38da-4bb1-8358-f70d6db0384c"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Очередное затопление"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5ba7e687-c332-4e50-a988-21685082b7b5"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А там люди живут?"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="fc9d0e19-48e8-4043-8cd2-79b2adfbadd1"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ага, там и на дерево не залезешь"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="27cf0d12-aa5f-4418-82b3-e56ff896f0f1"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Нет мыслей по поводу новости"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="702245cc-692c-426c-af76-018b2eb9194e"/>
+            <column name="news_id" value="73a2655b-7a28-4735-946e-273bb0453a91"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что-то пошло не так"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="b814d55d-a47e-4bfc-abc8-5394654a809a"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не люблю кофе"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5be85fa4-e30b-49bc-92eb-6f5992233b80"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="То полезно, то не полезно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="fc9e18ee-5fe0-4156-bad6-aa3ec59c5075"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Когда уже будет ясность с кофе"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c9870614-46c7-4e8e-bca5-c3aa4b7fa6e8"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ммммм, обожаю кофе"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="cc75ca52-f026-4f53-b2fd-f70ca854ab37"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Полезная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7fa5a3e9-d117-472d-8f31-d47dd37410c4"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Отлично"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="74674a66-8c05-454a-abab-7c69d13cc367"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неплохо"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="237d2c81-6dee-412e-a544-481f883bebdc"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Прикольно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="fd031de1-3b34-482f-9411-8d86622bf4cd"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Люблю кофе, но уменьшила количество потребления(((("/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a51e9a96-be50-4d7e-ac53-51f9df35f7a0"/>
+            <column name="news_id" value="f66d0abd-1eb5-4c87-8e03-071dab06513e"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ох уж эти кофеманы"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="a68b80ba-1f9e-44cb-8a1e-f99869f7de44"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неожиданно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="6bb25ae8-2fb9-4589-8115-b0afa129e01c"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А кто это"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c09ba6ba-3ce3-4cd8-8087-92b8d6a7043a"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так давно пора уже"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="639df9a4-ad53-41d3-bfe4-c74f49beb6b7"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Поиграл, и хватит"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="acd80d53-c304-4d96-b4a4-7b00fe0ab4e7"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно было смотреть за его игрой"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="273bc735-b8bc-4148-a036-d4dc7d561a83"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ждем новых звезд"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="0b45d0d8-d3f4-4273-adda-21f5a197747c"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="6abe931a-f290-45a6-9012-e6c7b7832f68"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="649cfde0-1e97-4912-b642-de71c96a74d4"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Грустно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f8b96c46-f057-40e3-970b-2cbe682f5528"/>
+            <column name="news_id" value="4c3c7090-dbbb-4349-8682-22d537d9c02a"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="da099347-37a4-413c-aa82-7ade56516df4"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ох уж эти торги"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a80e8495-b83d-46c5-9a49-c7e86bc9b4f9"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А кто это"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="21ae16c6-2e77-4ef2-b18f-2ac846634715"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А чего продать решили то????"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c744210a-b997-4d14-86bc-fa91f4639ce6"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Это ж какие деньжищи"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="67552a94-68ab-40b6-a321-6eac722564f9"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно было бы посмотреть за торгами"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="02f46a9d-9d2e-48cd-ac90-05af282f9e16"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Купили, продали"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b53832df-f4f5-4a83-8882-a41f718e4e35"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3b43b694-4bc5-4e89-92ec-99a2ed176f6c"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="dc1f4a7b-9d23-45e3-8a8e-8234996ef9ea"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ждем"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="54cfe909-bb5d-400e-977b-2bee39f94b27"/>
+            <column name="news_id" value="48f7837b-9a80-4d64-b6ec-1f33293b0733"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="f1204b06-8c6d-4394-b856-dceabb70ab2f"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ждем"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="e7cda1c0-7353-4dba-854c-7f4d522e4385"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Полезная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4838d87b-41e3-4bf8-bc0c-71bce26f2425"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Я сплю по ночам"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="86d62b7f-40db-445e-bc6e-031a0e16f5ce"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Красиво должно быть"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="82826945-b217-42c9-937e-ff14e604c79e"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно было бы посмотреть"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="8902c74c-dafb-44bc-a245-e93467a8ac7b"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Как не проспать"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="65cef8b4-44da-4493-9b23-713786f56565"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="aca5e5eb-63db-46a7-8766-2d1bffb3dbf5"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="59ee97d7-34d2-491a-9bff-d9d0e916656f"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Потом фотки посмотрю"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="cfe9cf9f-9e16-4807-8043-4a50498fa840"/>
+            <column name="news_id" value="f4d4e0bc-54be-4e65-83da-ee0196a3ad46"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="a2df2cb7-ee38-4af8-bfe5-b087d34de357"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ждем"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="91800d37-b924-4a20-a6ae-c1a8cce06cee"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Полезная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3fc17352-7e85-4676-9c9d-cf71cadb2367"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Бесполезно для меня"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f10dc6cb-6d5a-4cb0-a9ad-8141b232f458"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Красиво должно быть"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5491fbe2-b3e6-4c74-8bd0-0bb282984286"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно было бы посмотреть"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="080cf0f8-4352-4067-8c94-b0e5b82b7066"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Как не пропустить"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5e348b2c-92c2-49bd-a445-e7840488efd6"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="8bd32db7-ae31-4348-956a-667e43d933f8"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="482fd2d7-1dd8-4804-80de-e5f60703e460"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Потом фотки посмотрю"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7e8e4984-d119-4cc3-9d25-92b2b7bae9cb"/>
+            <column name="news_id" value="cb539196-813f-408c-aae1-5f4b3a3ce7aa"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="5dd94177-438e-42ca-85b9-c10dc224b19a"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ужас"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5ba9c915-6dbb-4658-bc48-db912e6c3b65"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Катастрофа"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5b7ffbff-ab73-474c-9b46-0b8e79bc6f21"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Бесполезно для меня"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c3bed782-02ba-4e14-86fd-ad0261af1cee"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Беда"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="ce3da4e1-3adb-4528-82c9-0bd5d24515a0"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное происшествие"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="088f2df0-5588-4753-91b2-d64da481214e"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Стихия"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a4952b9d-23fc-4a5b-86ad-174d32d04987"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2a335461-f8a0-4d31-b3f9-7257f65aff7c"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="42f5df44-cab6-4712-81a1-e9f23309e705"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что с климатом"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="50308302-fe31-4812-8278-72a469b93254"/>
+            <column name="news_id" value="cef7562e-26ea-46a5-93f5-d1daf933bcd3"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное происшествие"/>
+        </insert>
+
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="bfe9f703-1044-4335-b9c5-af4756bdc693"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ужас"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="02590c7c-c16a-4442-8b66-5f4babd7ef2c"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Катастрофа"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b33bc21f-3763-4a7f-9180-3ccea035fe06"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Бесполезно для меня"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b03de9ab-0166-490f-aeb2-fa4253b6e65d"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Беда"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="19fb6f63-5d86-46c3-9bfc-a7cccd06df9c"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное заболевание"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4d8ae3db-11f2-451c-9401-f0fe1534c03d"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Много пострадавших"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3882679d-2d6a-4c2b-a1f2-1a16d4c7ecf2"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="07fe4d95-b0a6-4ead-bb5f-f410a0c1a6db"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="ea29ba33-52f3-401e-b31e-c5f97b95a6f3"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Снова вирусы"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="51299c5b-b800-4bd0-b314-554728f64dce"/>
+            <column name="news_id" value="30cb726b-d3f7-4175-b1a3-ed6583d4df48"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное происшествие"/>
+        </insert>
+
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="a6ef8780-4e6f-4840-accf-25ff412aa2e7"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ужас"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3eeb5995-92f1-401b-842a-d7e397e5d550"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Катастрофа"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4617704b-6d64-4c82-8378-5cbd0988ac55"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Бесполезно для меня"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2d36dbf8-c193-47f7-822a-6f082d2f784c"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Беда"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="ec478fe6-15a8-4314-a889-4e4a541e3eff"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное происшествие"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b13c4c98-fefb-4701-93a8-29ecd555c566"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Стихия"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="95b686ef-348f-4850-bbd3-0aa66b75af0b"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="999fdbe2-6a83-410a-8a45-6df95dda53ee"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b59f1213-be42-4d44-a6ff-b3dc52785f28"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что с климатом"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="d9b04271-b39e-4b82-ba63-70622ed04568"/>
+            <column name="news_id" value="3c6ab6a1-bec3-4051-a00c-9ee448aaa38e"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Страшное происшествие"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="25d605ba-0a09-4b2e-ae8d-bf892eede2d3"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Шут"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="bd9011a4-79c5-4a28-916e-85f2e9565911"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не выиграет"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2e69a7ef-e923-4a2d-9c14-f52a420829c8"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А как будет выкручиваться, если выиграет"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1c4dff75-a0ce-47f5-81f2-b457508f7e5e"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Клоун"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="61ee3c15-bf40-4d62-9c1f-5b3eaa9737c9"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Цирк"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="d3e04084-b4ef-4132-bac3-52033ec25739"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="За чей счет банкет"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5aa72b19-a406-458a-a61e-816b66267817"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="ba5031b5-4510-4423-8e78-917db2471f14"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4c341754-7d69-454d-89d4-3a7d43b83da7"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Что с Трампом???"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="e0363bbf-92d3-42b4-934a-32d657849e83"/>
+            <column name="news_id" value="7d0b2978-eda9-4ce4-b026-3e019bc29055"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А вдруг"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="ffd0b75c-241b-48d9-bacb-920f709c1d8f"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Шуты"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="45edeaa1-161e-4152-a0f6-d0100ea7a440"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Еще и награды получают))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="bf859ec1-bd62-4d7b-b4d8-887fae66d918"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А думаю были кандидаты получше)))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="71db4f77-9798-4e2f-af7a-f8b42cb1f664"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Клоуны"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="54d041a3-f860-48dd-9f04-affe6b6c9d0d"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Цирк"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="df3d1d9d-5dbb-4136-89df-ce3c2611fca3"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А ведь есть не вошедшие в перечень рассматриваемых))))"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="b83a1bfd-450b-4da2-9206-927f42104f7b"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="f71e6645-0582-4062-bd99-07e7cc9d3da9"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="9098a5bc-dc95-4c0d-aabe-8fd225f361af"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Никогда не понимал, зачем эта премия???"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="51910c6a-8f45-40c0-8274-dcdc3e554e19"/>
+            <column name="news_id" value="639bd733-d5ef-499d-8da2-ea70575c6a40"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Странная премия"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="9c0713ab-e3c1-4c90-ab54-db839d6071c9"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Замечательно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="6b99a2db-0392-498b-8720-8f939b0f846c"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a6ce47bb-0597-4edd-95d6-e3bf5a519123"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ай да Маск"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3800d3bd-6b47-43e5-8e53-0e6b3b580203"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ого, круто"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="132ffa0b-b7c3-4327-923f-ad49d14953ff"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересная информация"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3989ae4b-db69-401c-afc7-bc21ac824f78"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Вот и дождались"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5d94c09f-be41-4029-9377-55498b469f48"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="61d65107-3e3d-435d-8cbd-5bf05539430b"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не информативно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c24d898f-7605-4bfb-97c3-3293543ef7d8"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Нет мыслей по поводу новости"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5fffa4d7-f271-4a7a-aa21-acadb07f06da"/>
+            <column name="news_id" value="32457bf4-a9a3-4a4a-a665-0a23198692c6"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Глобальненько"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="7050ca73-fea9-4405-a24c-720cb3df8190"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ох уж эти торги"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3489ded5-33ce-4ceb-8cbd-4b2ae35c2692"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А кто это"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c5003b15-1694-4b73-b4ea-d078d90cddb1"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А чего продать решили то????"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="1b82409d-b179-463c-8ea6-c43793f4f07e"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Это ж какие деньжищи"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="7a9c5116-4f5b-431e-8d2b-bccf29ff4396"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно было бы посмотреть за торгами"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4a505332-d237-4a1e-bf17-069198d66b2e"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Купили, продали"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="74bb850d-a6b2-444e-833a-14be4e528dfe"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="c058d6d0-4ace-4d16-be3e-e6c8d19d5dde"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="2c520f24-24f0-4705-b782-cb369a1ea782"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неожиданно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="5a160f5e-84b8-4f7a-881d-b5bdca06e0e2"/>
+            <column name="news_id" value="2bb7a79a-34a1-4dd4-ac62-85638abd77c3"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+        <!--======================================================-->
+
+        <insert tableName="comment">
+            <column name="id" value="bb331b7a-fbce-499d-aab5-62f393196416"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="coralie"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="042455ea-8fe6-4023-86bf-e1d91f3b3427"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="willa"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Неожиданно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="9111181d-4573-4fc4-af32-93b431c5cd30"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="fredy"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Известный факт"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="dd42b190-1f1d-485d-a7c7-ed3a03d0ea5b"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="chelsey"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ничего нового"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="d05f18e3-428e-4422-a2d0-8ef0437e7dad"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="tara"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="А как вы думали"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="9699d8ef-c6e7-4f85-9b57-1f606d58305e"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="lora"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Так это ж мемы"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="3334c522-80b2-4dc1-b53b-4c150cf141e9"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="nick"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Ну и ок"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a595bbaa-a334-4d7e-8a96-09b4df1483dd"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="mila"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не интересно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="4da7abf7-1d2c-4310-ad86-e28d5ecdbdca"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="kitty"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Да ладно"/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="a55d4ead-fdb0-409a-b766-43afa26601d3"/>
+            <column name="news_id" value="3185233b-e972-4d97-b6b3-25cac6bef81c"/>
+            <column name="author" value="doberman"/>
+            <column name="created_at" value="2024-10-12T19:03:28.832"/>
+            <column name="text" value="Не моя сфера интересов"/>
+        </insert>
+
+    </changeSet>
+
+
+</databaseChangeLog>

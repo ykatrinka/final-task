@@ -1,0 +1,80 @@
+spring:
+  application:
+    name: auth-service
+  jpa:
+    generate-ddl: false
+    show-sql: true
+
+exception-handling:
+  enable: true
+aop-logging:
+  enable: true
+security:
+  jwt:
+    secret-key: 4b783170ebf51a762664daf26fd6d53ec45be494268379207d42238c491b421a
+    #1 hour
+    expiration-time: 3600000
+
+server:
+  port: 8003
+
+---
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/auth_db
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: demo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://auth-db:5433/auth_db
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: demo
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://auth-db:5433/auth_db
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: prod
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/auth_db
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: test
