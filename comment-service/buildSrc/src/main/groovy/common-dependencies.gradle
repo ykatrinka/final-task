@@ -1,0 +1,25 @@
+ext {
+    mapstructVersion='1.6.3'
+    junitVersion = '5.11.4'
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    implementation "org.mapstruct:mapstruct:${mapstructVersion}"
+    implementation "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+    annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+
+    implementation 'ru.clevertec:spring-boot-aop-logging-starter:0.0.1'
+    implementation 'ru.clevertec:spring-boot-exception-handling-starter:0.0.1'
+
+    implementation 'org.springframework.boot:spring-boot-starter-test'
+
+    testImplementation platform("org.junit:junit-bom:${junitVersion}")
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    testImplementation "org.testcontainers:postgresql"
+    testImplementation "org.testcontainers:junit-jupiter"
+}
+

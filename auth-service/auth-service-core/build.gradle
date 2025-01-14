@@ -1,0 +1,26 @@
+plugins {
+    id 'java-conventions'
+    id 'spring-conventions'
+    id 'common-dependencies'
+}
+
+ext {
+    mapstructVersion = '1.6.3'
+    jjwtVersion = '0.12.6'
+    openApiVersion = '2.7.0'
+}
+
+dependencies {
+
+    api "io.jsonwebtoken:jjwt-api:${jjwtVersion}"
+    api "io.jsonwebtoken:jjwt-impl:${jjwtVersion}"
+    api "io.jsonwebtoken:jjwt-jackson:${jjwtVersion}"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+bootJar {
+    enabled false
+}

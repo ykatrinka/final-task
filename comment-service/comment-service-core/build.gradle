@@ -1,0 +1,20 @@
+plugins {
+    id 'java-conventions'
+    id 'spring-conventions'
+    id 'common-dependencies'
+}
+
+ext {
+    jjwtVersion = '0.12.6'
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
+
+bootJar {
+    enabled false
+}

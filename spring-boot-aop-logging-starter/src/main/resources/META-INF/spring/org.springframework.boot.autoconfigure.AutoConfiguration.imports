@@ -1,0 +1,2 @@
+ru.clevertec.loggingstarter.configuration.LoggingAutoConfiguration
+ru.clevertec.loggingstarter.configuration.LoggingLevelEnvironmentPostProcessor

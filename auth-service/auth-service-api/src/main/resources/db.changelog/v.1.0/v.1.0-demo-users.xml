@@ -1,0 +1,131 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.27.xsd">
+
+    <property name="now" value="now()" dbms="postgresql"/>
+
+
+    <changeSet id="demo-data-users" author="Katerina">
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="ca31e7be-0cb2-4fd5-b044-8195e23c787a"/>
+            <column name="username" value="admin"/>
+            <column name="email" value="admin@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="ADMIN"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="002a5b13-f4ca-4051-9651-b2ad32a8dfae"/>
+            <column name="username" value="lucy"/>
+            <column name="email" value="lucy@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="JOURNALIST"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="1ee244ba-1ea4-4925-86a3-1ac3ff26a4b7"/>
+            <column name="username" value="crazy"/>
+            <column name="email" value="crazy@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="JOURNALIST"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="b2b5a009-3f1c-4bd1-afc5-df8c2fa2ff3c"/>
+            <column name="username" value="lora"/>
+            <column name="email" value="lora@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="d78be306-c133-49f5-b0a0-2d1b3bd140d6"/>
+            <column name="username" value="chelsey"/>
+            <column name="email" value="chelsey@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="4a3af361-cd2d-4756-b726-e5959874f5a1"/>
+            <column name="username" value="coralie"/>
+            <column name="email" value="coralie@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="28c0ba2d-ae4c-44f2-8b12-4234d149d436"/>
+            <column name="username" value="mila"/>
+            <column name="email" value="mila@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="80071cb3-17fe-4d10-8553-8aa4a82d778b"/>
+            <column name="username" value="nick"/>
+            <column name="email" value="nick@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="8396c22c-564c-4d3a-b68f-294ff66d8944"/>
+            <column name="username" value="willa"/>
+            <column name="email" value="willa@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="46793906-b1d6-45e8-a159-31f8ca8ef10a"/>
+            <column name="username" value="kitty"/>
+            <column name="email" value="kitty@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="2c9897d5-1cda-49b2-af14-59125bb1726a"/>
+            <column name="username" value="doberman"/>
+            <column name="email" value="doberman@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="a42612e6-ef58-4782-8833-026a9a415b8d"/>
+            <column name="username" value="tara"/>
+            <column name="email" value="tara@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" type="uuid" value="7713d7b6-bd1a-478f-9231-919cc0cb1cf7"/>
+            <column name="username" value="fredy"/>
+            <column name="email" value="fredy@gmail.com"/>
+            <column name="password" value="$2a$10$eIJJyp/bF45nmXgHTGINEePUmKtdzmTUIeucouXgm0w9cbf12pBv6"/>
+            <column name="role" value="SUBSCRIBER"/>
+            <column name="created_at" valueDate="${now}"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

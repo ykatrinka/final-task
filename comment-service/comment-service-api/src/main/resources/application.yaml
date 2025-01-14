@@ -1,0 +1,114 @@
+spring:
+  application:
+    name: comment-service
+  jpa:
+    generate-ddl: false
+    show-sql: true
+  properties:
+    hibernate:
+      search:
+        backend:
+          type: lucene
+          directory:
+            root: ./data/index
+
+exception-handling:
+  enable: true
+aop-logging:
+  enable: true
+
+server:
+  port: 8082
+
+---
+spring:
+  profiles:
+    active: demo
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/news_system
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: dev
+
+feign:
+  client:
+    news-service:
+      name: news-service
+      url: "http://localhost:8081"
+
+local-cache:
+  capacity: 10
+  type: LRU
+
+---
+spring:
+  config:
+    activate:
+      on-profile: demo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://news-db:5432/news_system
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: demo
+  data:
+    redis:
+      host: cache-redis
+      port: 6379
+    cache:
+      type: redis
+feign:
+  client:
+    news-service:
+      name: news-service
+      url: "http://news-service:8081"
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://news-db:5432/news_system
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: prod
+
+feign:
+  client:
+    news-service:
+      name: news-service
+      url: "http://news-service:8081"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/news_system
+  liquibase:
+    change-log: ./db.changelog/changelog-master.xml
+    contexts: test
+
+feign:
+  client:
+    news-service:
+      name: news-service
+      url: "http://localhost:8081"
