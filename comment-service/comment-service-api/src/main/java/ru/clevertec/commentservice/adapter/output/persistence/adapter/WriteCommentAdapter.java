@@ -44,7 +44,7 @@ public class WriteCommentAdapter implements WriteCommentPort {
         return commentMapper.entityToDomain(updatedComment);
     }
 
-    @CacheEvict(value = "comment", key = "#result.id.toString()")
+    @CacheEvict(value = "comment", key = "#commentId.toString()")
     @Override
     public void deleteComment(UUID commentId) {
         Optional.ofNullable(commentId)
